@@ -1,0 +1,47 @@
+
+/* 
+.parent{
+    background-color: aqua;
+    display: flex;
+} */
+/* .child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    min-width: 30px;
+    flex-basis: 40px;
+} */
+/* .search-box{
+    flex-grow: 1;
+} */ 
+
+
+.parent{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent1{
+    background-color: aqua;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.parent2{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.parent3{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    flex-basis: 40px;
+    flex-shrink: 0;
+}
